@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ultimates" name="Ultimate Kodi Repo" version="900.9.9" provider-name="CD">
+    <extension point="xbmc.addon.repository" name="Ultimate Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/curtdavisjesus/ultimates/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/curtdavisjesus/ultimates/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/curtdavisjesus/ultimates/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ultimate Kodi Repo</summary>
+        <description>A place to put my stuff</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
